@@ -15,3 +15,15 @@ Maven: Para la gestión de dependencias y el ciclo de vida del proyecto.
 Java 8 o superior: Para ejecutar el proyecto.
 MySQL: Base de datos MySQL instalada y configurada.
 Maven: Para gestionar las dependencias del proyecto.
+
+
+
+📄 Uso
+Una vez que la aplicación esté en ejecución, podrás acceder a los endpoints de la API para gestionar los usuarios. Aquí tienes algunos ejemplos de los endpoints disponibles:
+
+POST /user: Crear un nuevo usuario.
+GET /user: Obtener la lista de usuarios.
+GET /user/{id}: Obtener la información de un usuario específico.
+PUT /user/{id}: Actualizar la información de un usuario específico.
+DELETE /user/{id}: Eliminar un usuario.
+📝 Documentación del Servicio de Usuario
