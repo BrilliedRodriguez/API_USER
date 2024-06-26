@@ -27,3 +27,50 @@ GET /user/{id}: Obtener la información de un usuario específico.
 PUT /user/{id}: Actualizar la información de un usuario específico.
 DELETE /user/{id}: Eliminar un usuario.
 📝 Documentación del Servicio de Usuario
+
+
+
+
+
+
+
+
+
+
+🛠 Endpoints
+📥 Crear Usuario (POST)
+URL: http://localhost:8080/user
+
+Body:
+{
+    "firstName": "BRILLIED",
+    "lastName": "RODRIGUEZ",
+    "email": "BRILLIED@gmail.com"
+}
+
+📋 Traer Todos los Usuarios (GET)
+URL: http://localhost:8080/user
+
+🔍 Traer un Usuario por ID (GET)
+URL: http://localhost:8080/user/{id}
+
+Ejemplo: http://localhost:8080/user/7
+
+❌ Eliminar un Usuario (DELETE)
+URL: http://localhost:8080/user/{id}
+
+Ejemplo: http://localhost:8080/user/7
+
+✏️ Editar un Usuario (PUT)
+URL: http://localhost:8080/user/{id}
+
+Ejemplo: http://localhost:8080/user/5
+
+Body:
+{
+    "id": 5,
+    "firstName": "ALEXANDER",
+    "lastName": "Duarte",
+    "email": "jhon@gmail.com"
+}
+
