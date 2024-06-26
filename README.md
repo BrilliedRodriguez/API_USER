@@ -38,6 +38,8 @@ DELETE /user/{id}: Eliminar un usuario.
 
 
 🛠 Endpoints
+
+
 📥 Crear Usuario (POST)
 URL: http://localhost:8080/user
 
